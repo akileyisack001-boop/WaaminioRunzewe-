@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Somo 02: Mfano wa Somo | Masomo Yangu</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="logo">
+        <span class="logo-icon">📚</span>
+        <span class="logo-text">Masomo Yangu</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="container lesson-page">
+    <a href="../index.html" class="back-link">← Rudi kwenye Orodha ya Masomo</a>
+
+    <div class="lesson-header">
+      <h1>Somo 02: Mfano wa Somo la Pili</h1>
+      <p class="lesson-meta">Tarehe: 20 Januari 2025</p>
+    </div>
+
+    <div class="content-box">
+      <h2>Yaliyomo ya Somo</h2>
+      <p>
+        Hili ni somo la mfano. Linaonyesha jinsi unavyoweza kuweka maandishi mengi, 
+        orodha, na maelezo mbalimbali.
+      </p>
+      <h3 style="margin: 1.25rem 0 0.5rem; color: #0f766e;">Mambo muhimu:</h3>
+      <ol>
+        <li>Andika maudhui yako kwa lugha rahisi</li>
+        <li>Tumia vichwa vidogo (h3, h4) kupanga mawazo</li>
+        <li>Ongeza video au sauti pale inapohitajika</li>
+        <li>Unaweza kuweka picha pia</li>
+      </ol>
+    </div>
+
+    <div class="content-box">
+      <h2>Sehemu ya HTML Maalum</h2>
+      <div class="html-content">
+        <div style="background: #f0fdfa; border: 1px solid #99f6e4; padding: 1rem; border-radius: 8px; margin: 1rem 0;">
+          <strong>Kumbuka:</strong> Unaweza kuweka HTML yoyote hapa — jedwali, fomu, buttons, n.k.
+        </div>
+        
+        <table style="width:100%; border-collapse: collapse; margin: 1rem 0;">
+          <thead>
+            <tr style="background: #0d9488; color: white;">
+              <th style="padding: 10px; text-align: left;">Kipengele</th>
+              <th style="padding: 10px; text-align: left;">Maelezo</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="border-bottom: 1px solid #e2e8f0;">
+              <td style="padding: 10px;">Maandishi</td>
+              <td style="padding: 10px;">Andika yaliyomo yako kawaida</td>
+            </tr>
+            <tr style="border-bottom: 1px solid #e2e8f0;">
+              <td style="padding: 10px;">HTML</td>
+              <td style="padding: 10px;">Weka HTML yoyote unayotaka</td>
+            </tr>
+            <tr>
+              <td style="padding: 10px;">Media</td>
+              <td style="padding: 10px;">Video, sauti, picha</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="content-box">
+      <h2>Video ya YouTube</h2>
+      <div class="media-container">
+        <iframe 
+          src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+          title="Video ya Somo"
+          frameborder="0" 
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Masomo Yangu</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
