@@ -1,4 +1,4 @@
-# Masomo Yangu - Tovuti ya Mafunzo
+# waaminio - Tovuti ya Mafunzo
 
 Website rahisi na safi ya kuweka masomo yako. Inaweza kuwekwa kwenye **Netlify** bure.
 
